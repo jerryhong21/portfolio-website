@@ -6,6 +6,18 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
+// export const socialMediaLinks = {
+//   {
+//     socialMediaName: "LinkedIn",
+//     url: 'https://www.linkedin.com/in/jerry-hong-33a04a182/'
+//   },
+//   {
+//     socialMediaName: "Instagram",
+//     url: 'https://www.linkedin.com/in/jerry-hong-33a04a182/'
+//   }
+
+// }
+
 export const links = [
   {
     name: "Home",

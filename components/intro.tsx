@@ -1,6 +1,9 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsArrowRight, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
 
 import React from "react";
 
@@ -8,6 +11,9 @@ export default function Intro() {
 	// TEMPORARY IMAGE SRC
 	const imgsrc =
 		"https://a.espncdn.com/i/headshots/nba/players/full/1966.png";
+
+	const linkedInUrl = "https://www.linkedin.com/in/jerry-hong-33a04a182/";
+	const instagramUrl = "https://www.instagram.com/jerry_hong21/";
 	const wavingEmoji = "👋";
 	return (
 		<section className="mb-28 max-w-[50rem] text-center sm:mb-0">
@@ -53,6 +59,37 @@ export default function Intro() {
 				could simplify{" "}
 				<span className="underline">our everyday tasks.</span>
 			</motion.h1>
+			<motion.div
+				className="flex flex-col justify-center items-center sm:flex-row text-lg font-medium gap-4"
+				initial={{ y: -100, opacity: 0 }}
+				animate={{ y: 0, opacity: 1 }}
+				transition={{ duration: 0.3, ease: "easeIn" }}>
+				<Link
+					href="#contact"
+					className="group bg-gray-900 text-white px-7 py-3 flex items-center rounded-full outline-none focus:scale-105 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+					{`Contact me here `}
+					<BsArrowRight className="opacity-70 translate-x-1 group-hover:translate-x-2" />
+				</Link>
+				<a
+					href="/cv.pdf"
+					download={true}
+					className="group bg-white text-gray-900 px-7 py-3 flex items-center rounded-full outline-none focus:scale-105 hover:scale-110 hover:bg-gray-100 active:scale-105 transition border border-black/10">
+					Download CV{" "}
+					<HiDownload className="group-hover: translate-x-1 opacity:70" />
+				</a>
+				<a
+					href={linkedInUrl}
+					target="_blank"
+					className="bg-white text-gray-900 p-4 flex items-center rounded-full outline-none focus:scale-105 hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-100 active:scale-105 transition border border-black/10">
+					<BsLinkedin />
+				</a>
+				<a
+					href={instagramUrl}
+					target="_blank"
+					className="bg-white text-gray-900 p-4 flex items-center rounded-full outline-none focus:scale-105 hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-100 active:scale-105 transition border border-black/10">
+					<BsInstagram />
+				</a>
+			</motion.div>
 		</section>
 	);
 }
