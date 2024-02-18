@@ -16,7 +16,7 @@ export default function Intro() {
 	const instagramUrl = "https://www.instagram.com/jerry_hong21/";
 	const wavingEmoji = "👋";
 	return (
-		<section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+		<section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[80rem]" id="home">
 			<div className="flex justify-center items-center">
 				<motion.div
 					className="relative"

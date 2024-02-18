@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
+import examsnap from "@/public/examsnap.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 // export const socialMediaLinks = {
@@ -74,25 +75,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Portfolio Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This very portfolio website, featuring responsive designs as my gateway into front-end web dev. The website includes innovative animations and a seemless scrolling experience",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "BiteMap",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web-app for finding your favourite restaurants in your preferred area",
+    tags: ["React"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "ExamSnap",
+    description:
+      "ExamSnap efficiently digitizes exam questions with advanced screenshotting, designed for scalable analysis and easy access, enhancing study precision and breadth.",
+    tags: ["Python"],
+    imageUrl: examsnap,
   },
 ] as const;
 

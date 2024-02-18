@@ -6,7 +6,9 @@ import SectionHeader from "./section-header";
 
 export default function About() {
 	return (
-		<section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40">
+		<section
+			className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-15 scroll-mt-28"
+			id="about">
 			<SectionHeader>About me</SectionHeader>
 			<motion.div
 				className="font-normal text-center"
