@@ -5,15 +5,13 @@ import { motion } from "framer-motion";
 import SectionHeader from "./section-header";
 import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-	const {ref, inView} = useInView();
-	const {setActiveSection} = useActiveSectionContext();
-	useEffect(() => {		
-		if (inView) {
-			setActiveSection("About");
-		}
-	}, [inView, setActiveSection])
+
+	// Threshold for % of section that needs to be displayed on page for navbar transition
+	const threshold = 0.85;
+	const {ref} = useSectionInView("About", threshold);
 
 	return (
 		<section

@@ -4,8 +4,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
+import { useSectionInView } from "@/lib/hooks";
 
-import React from "react";
+import React, { useEffect } from "react";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import { useInView } from "react-intersection-observer";
 
 export default function Intro() {
 	// TEMPORARY IMAGE SRC
@@ -15,8 +18,13 @@ export default function Intro() {
 	const linkedInUrl = "https://www.linkedin.com/in/jerry-hong-33a04a182/";
 	const instagramUrl = "https://www.instagram.com/jerry_hong21/";
 	const wavingEmoji = "👋";
+
+	// Threshold for % of section that needs to be displayed on page for navbar transition
+	const threshold = 0.1;
+	const { ref } = useSectionInView("Home", threshold);
+
 	return (
-		<section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[80rem]" id="home">
+		<section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[80rem]" id="home" ref={ref}>
 			<div className="flex justify-center items-center">
 				<motion.div
 					className="relative"
