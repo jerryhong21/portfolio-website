@@ -1,11 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import examsnap from "@/public/examsnap.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { TbDeviceDesktopCode } from "react-icons/tb";
+
 
 // export const socialMediaLinks = {
 //   {
@@ -68,7 +69,7 @@ export const experiencesData = [
 		location: "Bachelor of Computer Science + Engineering (Mechatronics)",
 		description:
 			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-		icon: React.createElement(FaReact),
+		icon: React.createElement(TbDeviceDesktopCode),
 		date: "2023 - present",
 	},
 ] as const;
