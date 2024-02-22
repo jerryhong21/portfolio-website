@@ -47,30 +47,30 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+	{
+		title: "Graduated Cranbrook School",
+		location: "Belleve Hill, Sydney",
+		description:
+			"Finished HSC at Cranbrook School as a Prefect. ATAR: 99.90",
+		icon: React.createElement(LuGraduationCap),
+		date: "2022",
+	},
+	{
+		title: "Content Writer @ Learnable",
+		location: "CBD, Sydney",
+		description:
+			"Joined the Physics team at Learnable, an all-in-one, interactive e-Learning company. I enhanced a 6000+ question database across multiple subjects by leading the development of advanced data analysis systems with Appscript. I developed a Python-based automated screenshot tool for improved analytics.",
+		icon: React.createElement(CgWorkAlt),
+		date: "2023 - present",
+	},
+	{
+		title: "UNSW",
+		location: "Bachelor of Computer Science + Engineering (Mechatronics)",
+		description:
+			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+		icon: React.createElement(FaReact),
+		date: "2023 - present",
+	},
 ] as const;
 
 export const projectsData = [
@@ -98,6 +98,7 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "C",
   "HTML",
   "CSS",
   "JavaScript",
