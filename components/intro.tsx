@@ -26,7 +26,10 @@ export default function Intro() {
 	const { ref } = useSectionInView("Home", threshold);
 
 	return (
-		<section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[80rem]" id="home" ref={ref}>
+		<section
+			className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[80rem]"
+			id="home"
+			ref={ref}>
 			<div className="flex justify-center items-center">
 				<motion.div
 					className="relative"
@@ -62,8 +65,8 @@ export default function Intro() {
 				className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
-				<span className="font-bold">Hello, I'm Jerry.</span> I'm a{" "}
-				<span className="font-bold">student at UNSW </span>
+				<span className="font-bold">Hello, I&apos;m Jerry.</span>{" "}
+				I&apos;m a <span className="font-bold">student at UNSW </span>
 				studying Computer Science and Mechatronics Engineering. I have a
 				passion for <span className="italic">web-dev </span> and how A.I
 				could simplify{" "}

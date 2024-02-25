@@ -23,7 +23,7 @@ export default function Experience() {
 		} else {
 			setSectionTriggered(false);
 		}
-	}, [inView]);
+	}, [inView, sectionTriggeredOnce]);
 
 	return (
 		<section id="experience" ref={ref} className="scroll-mt-28 mb:28 small:mb-40">
