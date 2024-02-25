@@ -37,7 +37,7 @@ export default function About() {
 					My desire for product aesthetics drives my passion for
 					frontend development and enhancing UI/UX. I revel in the
 					freedom to build bespoke solutions, tackling problems so
-					unique they're unlikely to be encountered by anyone else.
+					unique they&apos;re unlikely to be encountered by anyone else.
 					The thrill of crafting over-engineered solutions, even when
 					they demand more time than manual efforts, fuels my sense of
 					achievement.
