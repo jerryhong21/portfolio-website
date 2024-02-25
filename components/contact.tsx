@@ -13,9 +13,6 @@ import SubmitBtn from "./submit-button";
 export default function Contact() {
 	const email = "jh1012037421@gmail.com";
 	const { ref } = useSectionInView("Contact");
-	useEffect(() => {
-		toast.success("TESTTESTTEST");
-	}, []);
 
 	return (
 		<motion.section

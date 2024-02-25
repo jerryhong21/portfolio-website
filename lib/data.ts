@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import examsnap from "@/public/examsnap.png";
 import bitemap from "@/public/bitemap.png";
+import portfolioPng from "@/public/portfolio-website.png";
 import { TbDeviceDesktopCode } from "react-icons/tb";
 
 export const links = [
@@ -67,7 +66,7 @@ export const projectsData = [
     description:
       "This very portfolio website, featuring responsive designs as my gateway into front-end web dev. Through framer motion, the website includes innovative animations and a seemless scrolling experience, and uses Resend API to enable in-app emailing features.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer", "Git"],
-    imageUrl: rmtdevImg,
+    imageUrl: portfolioPng,
   },
   {
     title: "BiteMap",
