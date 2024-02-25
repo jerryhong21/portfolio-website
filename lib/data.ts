@@ -4,21 +4,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import examsnap from "@/public/examsnap.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import bitemap from "@/public/bitemap.png";
 import { TbDeviceDesktopCode } from "react-icons/tb";
-
-
-// export const socialMediaLinks = {
-//   {
-//     socialMediaName: "LinkedIn",
-//     url: 'https://www.linkedin.com/in/jerry-hong-33a04a182/'
-//   },
-//   {
-//     socialMediaName: "Instagram",
-//     url: 'https://www.linkedin.com/in/jerry-hong-33a04a182/'
-//   }
-
-// }
 
 export const links = [
   {
@@ -78,22 +65,22 @@ export const projectsData = [
   {
     title: "Portfolio Website",
     description:
-      "This very portfolio website, featuring responsive designs as my gateway into front-end web dev. The website includes innovative animations and a seemless scrolling experience",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer"],
+      "This very portfolio website, featuring responsive designs as my gateway into front-end web dev. Through framer motion, the website includes innovative animations and a seemless scrolling experience, and uses Resend API to enable in-app emailing features.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer", "Git"],
     imageUrl: rmtdevImg,
   },
   {
     title: "BiteMap",
     description:
-      "A web-app for finding your favourite restaurants in your preferred area",
-    tags: ["React"],
-    imageUrl: corpcommentImg,
+      "My very first project, a web-app for finding your favourite restaurants in your preferred area. Built using Yelp API and simple react framework, this project taught me the fundamenetals of front-end wed design.",
+    tags: ["JavaScript", "HTML", "React", "Git"],
+    imageUrl: bitemap,
   },
   {
     title: "ExamSnap",
     description:
       "ExamSnap efficiently digitizes exam questions with advanced screenshotting, designed for scalable analysis and easy access, enhancing study precision and breadth.",
-    tags: ["Python"],
+    tags: ["Python", "Git"],
     imageUrl: examsnap,
   },
 ] as const;

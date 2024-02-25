@@ -5,6 +5,8 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
+import jerry_headshot from "@/public/intro-headshot.png"
+// import jerry_headshot from "@/public/jerry-headshot.png"
 
 import React, { useEffect } from "react";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -12,8 +14,8 @@ import { useInView } from "react-intersection-observer";
 
 export default function Intro() {
 	// TEMPORARY IMAGE SRC
-	const imgsrc =
-		"https://a.espncdn.com/i/headshots/nba/players/full/1966.png";
+	// const imgsrc =
+		// "https://a.espncdn.com/i/headshots/nba/players/full/1966.png";
 
 	const linkedInUrl = "https://www.linkedin.com/in/jerry-hong-33a04a182/";
 	const instagramUrl = "https://www.instagram.com/jerry_hong21/";
@@ -35,13 +37,13 @@ export default function Intro() {
 						duration: 0.2,
 					}}>
 					<Image
-						src={imgsrc}
+						src={jerry_headshot}
 						alt="Jerry Hong Portrait"
 						width="192"
 						height="192"
-						quality="95"
+						quality="100"
 						priority={true}
-						className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"></Image>
+						className="h-[8rem] w-[8rem] rounded-full object-cover border-[0.35rem] border-white shadow-xl"></Image>
 					<motion.span
 						className="absolute bottom-0 right-0 text-3xl"
 						initial={{ opacity: 0, scale: 0 }}
