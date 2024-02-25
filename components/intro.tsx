@@ -8,9 +8,7 @@ import { useSectionInView } from "@/lib/hooks";
 import jerry_headshot from "@/public/intro-headshot.png"
 // import jerry_headshot from "@/public/jerry-headshot.png"
 
-import React, { useEffect } from "react";
-import { useActiveSectionContext } from "@/context/active-section-context";
-import { useInView } from "react-intersection-observer";
+import React from "react";
 
 export default function Intro() {
 	// TEMPORARY IMAGE SRC
