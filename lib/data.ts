@@ -6,6 +6,24 @@ import bitemap from "@/public/bitemap.png";
 import portfolioPng from "@/public/portfolio-website.png";
 import { TbDeviceDesktopCode } from "react-icons/tb";
 
+// export const socialMediaLinks = [
+// 	{
+// 		socialMedia: "github",
+// 		url: "https://github.com/jerryhong21",
+// 	},
+// 	{
+// 		socialMedia: "instagram",
+// 		url: "https://www.linkedin.com/in/jerry-hong-33a04a182/",
+// 	},
+// 	{
+// 		socialMedia: "linkedin",
+// 		url: "https://www.linkedin.com/in/jerry-hong-33a04a182/",
+// 	},
+// ] as const;
+	export const linkedInUrl = "https://www.linkedin.com/in/jerry-hong-33a04a182/" as const;
+	export const instagramUrl = "https://www.instagram.com/jerry_hong21/" as const;
+	export const githubUrl = "https://github.com/jerryhong21" as const;
+
 export const links = [
   {
     name: "Home",

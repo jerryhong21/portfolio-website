@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import SectionHeader from "./section-header";
 import { useSectionInView } from "@/lib/hooks";
 import {
@@ -10,7 +9,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
-import { useInView } from "react-intersection-observer";
 
 export default function Experience() {
 	const { ref, inView } = useSectionInView("Experience");

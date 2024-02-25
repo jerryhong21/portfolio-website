@@ -2,21 +2,16 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import jerry_headshot from "@/public/intro-headshot.png"
-// import jerry_headshot from "@/public/jerry-headshot.png"
+import { linkedInUrl, instagramUrl, githubUrl } from "@/lib/data";
 
 import React from "react";
 
 export default function Intro() {
-	// TEMPORARY IMAGE SRC
-	// const imgsrc =
-		// "https://a.espncdn.com/i/headshots/nba/players/full/1966.png";
 
-	const linkedInUrl = "https://www.linkedin.com/in/jerry-hong-33a04a182/";
-	const instagramUrl = "https://www.instagram.com/jerry_hong21/";
 	const wavingEmoji = "👋";
 
 	// Threshold for % of section that needs to be displayed on page for navbar transition
@@ -87,6 +82,12 @@ export default function Intro() {
 					className="group bg-white text-gray-900 px-7 py-3 flex items-center rounded-full outline-none focus:scale-105 hover:scale-110 hover:bg-gray-100 active:scale-105 transition border border-black/10">
 					Download CV{" "}
 					<HiDownload className="group-hover: translate-x-1 opacity:70" />
+				</a>
+				<a
+					href={githubUrl}
+					target="_blank"
+					className="bg-white text-gray-900 p-4 flex items-center rounded-full outline-none focus:scale-105 hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-100 active:scale-105 transition border border-black/10">
+					<BsGithub />
 				</a>
 				<a
 					href={linkedInUrl}

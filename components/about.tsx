@@ -3,8 +3,6 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import SectionHeader from "./section-header";
-import { useInView } from "react-intersection-observer";
-import { useActiveSectionContext } from "@/context/active-section-context";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
