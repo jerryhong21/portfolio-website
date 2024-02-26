@@ -31,7 +31,7 @@ export default function Project({
 			}}>
 			<div className=" px-5 pt-7 pb-[2.75rem] sm:pl-10 sm:pr-2 sm:max-w-[50%] flex flex-col h-full relative group-even:ml-[19rem]">
 				<h3 className="font-semibold text-2xl">{title}</h3>
-				<p className="mt-2 text-[0.8rem] w-[50%] sm:w-full sm:leading-relaxed text-gray-700 mb-4">
+				<p className="mt-2 text-[0.8rem] w-[75%] sm:w-full sm:leading-relaxed text-gray-700 mb-4">
 					{description}
 				</p>
 				<ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
@@ -48,8 +48,10 @@ export default function Project({
 				src={imageUrl}
 				alt={`Project I worked on: ${title}`}
 				quality={95}
-				className="absolute top-8 -right-40 sm:w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] 
-                group-even:-left-40 
+				className="absolute top-8 -right-40 w-[20rem] sm:w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] 
+                sm:group-even:-left-40 
+				group-even:w-[10rem]
+                group-even:-left-20
                 group-hover:-translate-x-3 
                 group-hover:translate-y-3 
                 group-hover:-rotate-3 

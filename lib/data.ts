@@ -72,7 +72,7 @@ export const experiencesData = [
 		title: "UNSW",
 		location: "Bachelor of Computer Science + Engineering (Mechatronics)",
 		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+			"I am currently pursuing a dual degree in Engineering and Computer Science at UNSW, which I believe will equip me with the necessary skills to design, construct, and program automated systems that enhance our daily lives.",
 		icon: React.createElement(TbDeviceDesktopCode),
 		date: "2023 - present",
 	},
