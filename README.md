@@ -5,10 +5,10 @@
 Welcome to my portfolio website hosted at [jhong21.com](https://jhong21.com). This site serves as a showcase of my skills and projects in front-end web development, featuring responsive design and a seamless user experience.
 
 ## Technologies Used
-- **React:** 
-- **TypeScript:** 
-- **Next.js:** 
-- **Tailwind CSS:**
+- **React** 
+- **TypeScript** 
+- **Next.js** 
+- **Tailwind CSS**
 - **Framer Motion:** A library for React that makes creating animations easy.
 - **Git:** Version control system for tracking changes in source code during development.
 
