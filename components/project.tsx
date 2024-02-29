@@ -50,7 +50,6 @@ export default function Project({
 				quality={95}
 				className="absolute top-8 -right-40 w-[20rem] sm:w-[28.25rem] rounded-t-lg shadow-2xl group-even:right-[initial] 
                 sm:group-even:-left-40 
-				group-even:w-[10rem]
                 group-even:-left-20
                 group-hover:-translate-x-3 
                 group-hover:translate-y-3 
