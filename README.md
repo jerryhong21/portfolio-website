@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Portfolio Website - jhong21.com
 
-First, run the development server:
+## Introduction
+Welcome to my portfolio website hosted at [jhong21.com](https://jhong21.com). This site serves as a showcase of my skills and projects in front-end web development, featuring responsive design and a seamless user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technologies Used
+- **React:** 
+- **TypeScript:** 
+- **Next.js:** 
+- **Tailwind CSS:**
+- **Framer Motion:** A library for React that makes creating animations easy.
+- **Git:** Version control system for tracking changes in source code during development.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- **Responsive Design:** The website is designed to be fully responsive, providing an optimal viewing experience across a wide range of devices.
+- **Innovative Animations:** Utilizing Framer Motion, the website offers engaging and smooth animations to enhance user interaction.
+- **Seamless Scrolling Experience:** Smooth scrolling and navigation make browsing the website effortless.
+- **In-App Emailing:** With the integration of the Resend API, visitors can contact me directly through the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Development
+This portfolio website is developed using the latest version of Next.js, highlighting best practices in modern front-end development.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Setup
+To get a local copy up and running, follow these simple steps:
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your-username/portfolio-website.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the development server
+   ```sh
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## Credits
+This website was built following an instructional video by [byteGrad](https://www.youtube.com/@ByteGrad) on YouTube with my own twists added.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Use as a Template
+Feel free to use this project as a template for your own portfolio website. If you do, I'd love to see what you build with it!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributions
+While this is a personal portfolio website, contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/your-username/portfolio-website/issues) if you want to contribute.
 
-## Deploy on Vercel
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
+- Portfolio: [jhong21.com](https://jhong21.com)
+- Email: [jh1012037421@gmail.com](mailto:jh1012037421@gmail.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio website!
