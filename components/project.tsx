@@ -34,7 +34,7 @@ export default function Project({
 				<p className="mt-2 text-[0.8rem] w-[75%] sm:w-full sm:leading-relaxed text-gray-700 mb-4">
 					{description}
 				</p>
-				<ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
+				<ul className="flex flex-wrap mt-4 gap-1.5 sm:mt-auto">
 					{tags.map((tag, index) => (
 						<li
 							key={index}
@@ -56,7 +56,7 @@ export default function Project({
                 group-hover:-rotate-3 
                 group-even:group-hover:translate-x-3
                 group-even:group-hover:translate-y-3
-                group-even:group-hover:rotate-3 
+                group-even:group-hover:rotate-3
                 transition duration-75"></Image>
 		</motion.section>
 	);

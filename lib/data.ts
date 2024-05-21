@@ -4,6 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import examsnap from "@/public/examsnap.png";
 import bitemap from "@/public/bitemap.png";
 import portfolioPng from "@/public/portfolio-website.png";
+import preflopPokerPng from "@/public/preflop-poker-chart.png";
 import { TbDeviceDesktopCode } from "react-icons/tb";
 
 // export const socialMediaLinks = [
@@ -79,27 +80,34 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Portfolio Website",
-    description:
-      "This very portfolio website, featuring responsive designs as my gateway into front-end web dev. Through framer motion, the website includes innovative animations and a seemless scrolling experience, and uses Resend API to enable in-app emailing features.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer", "Git"],
-    imageUrl: portfolioPng,
-  },
-  {
-    title: "BiteMap",
-    description:
-      "My very first project, a web-app for finding your favourite restaurants in your preferred area. Built using Yelp API and simple react framework, this project taught me the fundamenetals of front-end wed design.",
-    tags: ["JavaScript", "HTML", "React", "Git"],
-    imageUrl: bitemap,
-  },
-  {
-    title: "ExamSnap",
-    description:
-      "ExamSnap efficiently digitizes exam questions with advanced screenshotting, designed for scalable analysis and easy access, enhancing study precision and breadth.",
-    tags: ["Python", "Git"],
-    imageUrl: examsnap,
-  },
+	{
+		title: "Preflop Poker Solver",
+		description:
+			"A AI solver for a simplified version of Heads Up Texas Hold'em. The AI model uses CFR (Counterfactual Regret Minimisation) and MCTS (Monte-Carlo Tree Search) strategies to simulate iterative self-play, culminating in a complete strategy profile all possible decision points in the game at Nash Equilibrium",
+		tags: ["Python", "AI", "Game Theory", "CFR", "Nash Equilibrium", "Git"],
+		imageUrl: preflopPokerPng,
+	},
+	{
+		title: "jhong21.com",
+		description:
+			"This very portfolio website, featuring responsive designs as my gateway into front-end web dev. Through framer motion, the website includes innovative animations and a seemless scrolling experience, and uses Resend API to enable in-app emailing features.",
+		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer", "Git"],
+		imageUrl: portfolioPng,
+	},
+	{
+		title: "BiteMap",
+		description:
+			"My very first project, a web-app for finding your favourite restaurants in your preferred area. Built using Yelp API and simple react framework, this project taught me the fundamenetals of front-end wed design.",
+		tags: ["React", "Javascript", 'HTML', 'CSS', "Git"],
+		imageUrl: bitemap,
+	},
+	{
+		title: "ExamSnap",
+		description:
+			"ExamSnap efficiently digitizes exam questions with advanced screenshotting, designed for scalable analysis and easy access, enhancing study precision and breadth.",
+		tags: ["Python", "Git"],
+		imageUrl: examsnap,
+	},
 ] as const;
 
 export const skillsData = [
