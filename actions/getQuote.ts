@@ -2,7 +2,7 @@ import OpenAI from "openai";
 // import { OPENAI_API_KEY } from "../.apiKeys";
 
 const openai = new OpenAI({
-	apiKey: process.env.OPENAI_API_KEY,
+	apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
 	dangerouslyAllowBrowser: true,
 });
 
