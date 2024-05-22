@@ -18,6 +18,11 @@ Welcome to my portfolio website hosted at [jhong21.com](https://jhong21.com). Th
 - **Seamless Scrolling Experience:** Smooth scrolling and navigation make browsing the website effortless.
 - **In-App Emailing:** With the integration of the Resend API, visitors can contact me directly through the website.
 
+## Upcoming Features
+- Quote of the day (GPT-4o API, vercel AI module)
+- Song/Playlist of the day (Spotify API)
+- Custom chatbot?
+
 ## Development
 This portfolio website is developed using the latest version of Next.js, highlighting best practices in modern front-end development.
 
