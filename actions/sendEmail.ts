@@ -1,6 +1,6 @@
 "use server";
 import React from "react";
-import { isValidEmail, isValidMessage, getErrorMessage } from "@/lib/utils";
+import { isValidEmail, isValidMessage, getErrorMessage } from "@/lib/helpers";
 import { Resend } from "resend";
 import ContactFormEmail from "@/email/contact-form-email";
 
