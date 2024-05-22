@@ -7,11 +7,13 @@ import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import Quotebox from "@/components/quotebox";
 
 export default function Home() {
 	return (
 		<main className="flex flex-col justify-around items-center px-4 ">
 			<Intro></Intro>
+			<Quotebox></Quotebox>
 			<SectionDivider></SectionDivider>
 			<About></About>
 			<Projects></Projects>

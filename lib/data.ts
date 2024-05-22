@@ -71,7 +71,7 @@ export const experiencesData = [
 	},
 	{
 		title: "UNSW",
-		location: "Bachelor of Computer Science + Engineering (Mechatronics)",
+		location: "Bachelor of Computer Science + Mechatronics Engineering",
 		description:
 			"I am currently pursuing a dual degree in Engineering and Computer Science at UNSW, which I believe will equip me with the necessary skills to design, construct, and program automated systems that enhance our daily lives.",
 		icon: React.createElement(TbDeviceDesktopCode),

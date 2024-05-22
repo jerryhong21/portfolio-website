@@ -55,15 +55,15 @@ export default function Intro() {
 				</motion.div>
 			</div>
 			<motion.h1
-				className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+				className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}>
-				<span className="font-bold">Hello, I&apos;m Jerry.</span>{" "}
+				<span className="font-bold">Hi, I&apos;m Jerry</span> <br />
+				<br />
 				I&apos;m a <span className="font-bold">student at UNSW </span>
-				studying Computer Science and Mechatronics Engineering. I have a
-				passion for <span className="italic">web-dev </span> and how A.I
-				could simplify{" "}
-				<span className="underline">our everyday tasks.</span>
+				studying CS and Mechatronics Engineering. I have a
+				passion for web-dev and using A.I to transform our everyday
+				life.
 			</motion.h1>
 			<motion.div
 				className="flex flex-col justify-center items-center sm:flex-row text-lg font-medium gap-4"
