@@ -14,18 +14,18 @@ import {
 	HoverCardTrigger,
 } from "@/components/ui/hover-card";
 import { Button } from "@/components/ui/button";
-''
+("");
 
 export default function Quotebox() {
 	// let res;
 	const [quote, setQuote] = useState("");
 	// let result = "";
-    const [showQuote, setShowQuote] = useState(false);
+	const [showQuote, setShowQuote] = useState(false);
 	const fetchQuote = async () => {
 		try {
 			const result = await genText();
 			console.log("Fetched quote:", result);
-            if (result) setQuote(result);
+			if (result) setQuote(result);
 		} catch (e) {
 			console.error("Error fetching quote:", e);
 		}
@@ -33,15 +33,14 @@ export default function Quotebox() {
 	useEffect(() => {
 		console.log("HELLO");
 		fetchQuote();
-        console.log(quote);
+		console.log(quote);
 
-        const timer = setTimeout(() => {
-            setShowQuote(true);
-        }, 3000)
+		const timer = setTimeout(() => {
+			setShowQuote(true);
+		}, 3000);
 
-        return () => clearTimeout(timer);
+		return () => clearTimeout(timer);
 	}, []);
-
 
 	return (
 		<motion.section
@@ -52,6 +51,7 @@ export default function Quotebox() {
 			<div>
 				<TypeWriter fontSize="big">
 					Before we begin, here is something to inspire your day...
+					Made just for you.
 				</TypeWriter>
 			</div>
 
