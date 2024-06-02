@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-// import { OPENAI_API_KEY } from "../.apiKeys";
+import { OPENAI_API_KEY } from "../.apiKeys";
 
 const openai = new OpenAI({
 	apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
@@ -14,7 +14,7 @@ export default async function genText() {
 				{
 					role: "system",
 					content:
-						"Generate an outrageous or atrotious quote, followed by '- Kanye West, probably.'",
+						"Generate an inspirational quote by a popular philospher.",
 				},
 			],
 			model: "gpt-3.5-turbo",
