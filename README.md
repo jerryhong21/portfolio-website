@@ -9,19 +9,20 @@ Welcome to my portfolio website hosted at [jhong21.com](https://jhong21.com). Th
 - **TypeScript** 
 - **Next.js** 
 - **Tailwind CSS**
+- **OpenAI API** 
 - **Framer Motion:** A library for React that makes creating animations easy.
 - **Git:** Version control system for tracking changes in source code during development.
 
 ## Features
 - **Responsive Design:** The website is designed to be fully responsive, providing an optimal viewing experience across a wide range of devices.
+- **Customised Quote** Using OpenAI api, the website displays a live-typewritten quote upon every client-side render.
 - **Innovative Animations:** Utilizing Framer Motion, the website offers engaging and smooth animations to enhance user interaction.
 - **Seamless Scrolling Experience:** Smooth scrolling and navigation make browsing the website effortless.
 - **In-App Emailing:** With the integration of the Resend API, visitors can contact me directly through the website.
 
 ## Upcoming Features
-- Quote of the day (GPT-4o API, vercel AI module)
 - Song/Playlist of the day (Spotify API)
-- Custom chatbot?
+- Custom chatbot
 
 ## Development
 This portfolio website is developed using the latest version of Next.js, highlighting best practices in modern front-end development.
