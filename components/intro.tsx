@@ -60,10 +60,7 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}>
 				<span className="font-bold">Hi, I&apos;m Jerry</span> <br />
 				<br />
-				I&apos;m a <span className="font-bold">student at UNSW </span>
-				studying CS and Mechatronics Engineering. I have a
-				passion for web-dev and using A.I to transform our everyday
-				life.
+				I&apos;m a student at UNSW studying CS and Mechatronics Engineering with an interest in algorithms, robotics, and software development.{" "}
 			</motion.h1>
 			<motion.div
 				className="flex flex-col justify-center items-center sm:flex-row text-lg font-medium gap-4"
