@@ -51,7 +51,7 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
-
+ 
 export const experiencesData = [
 	{
 		title: "Graduated Cranbrook School",
@@ -62,14 +62,6 @@ export const experiencesData = [
 		date: "2022",
 	},
 	{
-		title: "Content Writer @ Learnable",
-		location: "CBD, Sydney",
-		description:
-			"Joined the Physics team at Learnable, an all-in-one, interactive e-Learning company. I enhanced a 6000+ question database across multiple subjects by leading the development of advanced data analysis systems with Appscript. I developed a Python-based automated screenshot tool for improved analytics.",
-		icon: React.createElement(CgWorkAlt),
-		date: "2023 - present",
-	},
-	{
 		title: "UNSW",
 		location: "Bachelor of Computer Science + Mechatronics Engineering",
 		description:
@@ -77,6 +69,13 @@ export const experiencesData = [
 		icon: React.createElement(TbDeviceDesktopCode),
 		date: "2023 - present",
 	},
+	{
+		title: "Software Engineering Intern @ SafetyCulture"
+		location: "Surry Hills, NSW", 
+		icon: React.createElement(CgWorkAlt),
+		description:
+			"Fullstack Software Engineering intern at SafetyCulture, under the Content Library team."
+	}
 ] as const;
 
 export const projectsData = [
@@ -112,16 +111,19 @@ export const projectsData = [
 
 export const skillsData = [
   "C",
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "C++",
+  "Go",
+  "gRPC",
   "TypeScript",
+  "JavaScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
+  "TailwindCSS",
   "Express",
   "Python",
   "Framer Motion",
+  "HTML",
+  "CSS",
 ] as const;
