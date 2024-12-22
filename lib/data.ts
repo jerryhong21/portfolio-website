@@ -70,11 +70,11 @@ export const experiencesData = [
 		date: "2023 - present",
 	},
 	{
-		title: "Software Engineering Intern @ SafetyCulture"
-		location: "Surry Hills, NSW", 
-		description: "Fullstack Software Engineering intern at SafetyCulture, under the Content Library team."
+		title: "Software Engineering Intern @ SafetyCulture",
+		location: "Surry Hills, NSW",
+		description: "Fullstack Software Engineering intern at SafetyCulture, under the Content Library team.",
 		icon: React.createElement(CgWorkAlt),
-		date: "Dec 2024 - present"
+		date: "Dec 2024 - present",
 	}
 ] as const;
 
