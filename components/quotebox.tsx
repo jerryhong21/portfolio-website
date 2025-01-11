@@ -17,9 +17,7 @@ import { Button } from "@/components/ui/button";
 ("");
 
 export default function Quotebox() {
-	// let res;
 	const [quote, setQuote] = useState("");
-	// let result = "";
 	const [showQuote, setShowQuote] = useState(false);
 	const fetchQuote = async () => {
 		try {
@@ -31,7 +29,6 @@ export default function Quotebox() {
 		}
 	};
 	useEffect(() => {
-		console.log("HELLO");
 		fetchQuote();
 		console.log(quote);
 

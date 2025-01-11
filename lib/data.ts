@@ -96,7 +96,7 @@ export const projectsData = [
 	{
 		title: "BiteMap",
 		description:
-			"My very first project, a web-app for finding your favourite restaurants in your preferred area. Built using Yelp API and simple react framework, this project taught me the fundamenetals of front-end wed design.",
+			"My very first project, a web-app for finding your favourite restaurants in your preferred area. Built using Yelp API and simple react framework, this project taught me the fundamentals of front-end wed design.",
 		tags: ["React", "Javascript", 'HTML', 'CSS', "Git"],
 		imageUrl: bitemap,
 	},
