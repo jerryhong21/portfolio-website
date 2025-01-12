@@ -55,7 +55,7 @@ export const links = [
 export const experiencesData = [
 	{
 		title: "Graduated Cranbrook School",
-		location: "Belleve Hill, Sydney",
+		location: "Bellevue Hill, Sydney",
 		description:
 			"Finished HSC at Cranbrook School as a Prefect. ATAR: 99.90",
 		icon: React.createElement(LuGraduationCap),
