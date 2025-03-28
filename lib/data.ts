@@ -79,7 +79,7 @@ export const experiencesData = [
 	{
 		title: "Software Engineering Intern @ TikTok",
 		location: "Circular Quay, NSW",
-		description: "Backend intern in the Live FOUNDATION team.",
+		description: "Backend intern in the LIVE Foundation team.",
 		icon: React.createElement(TbDeviceDesktopCode),
 		date: "Mar 2025 - present",
 	}
