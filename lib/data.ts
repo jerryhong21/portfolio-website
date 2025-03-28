@@ -74,7 +74,14 @@ export const experiencesData = [
 		location: "Surry Hills, NSW",
 		description: "Fullstack Software Engineering intern at SafetyCulture, under the Content Library team.",
 		icon: React.createElement(CgWorkAlt),
-		date: "Dec 2024 - present",
+		date: "Dec 2024 - Feb 2025",
+	},
+	{
+		title: "Software Engineering Intern @ TikTok",
+		location: "Circular Quay, NSW",
+		description: "Backend intern in the Live FOUNDATION team.",
+		icon: React.createElement(TbDeviceDesktopCode),
+		date: "Mar 2025 - present",
 	}
 ] as const;
 
@@ -83,7 +90,7 @@ export const projectsData = [
 		title: "Preflop Poker Solver",
 		description:
 			"A AI solver for a simplified version of Heads Up Texas Hold'em. The AI model uses CFR (Counterfactual Regret Minimisation) and MCTS (Monte-Carlo Tree Search) strategies to simulate iterative self-play, culminating in a complete strategy profile all possible decision points in the game at Nash Equilibrium",
-		tags: ["Python", "AI", "Game Theory", "CFR", "Nash Equilibrium", "Git"],
+		tags: ["C++","Python", "AI", "MatLab", "CFR", "Nash Equilibrium", "Git"],
 		imageUrl: preflopPokerPng,
 	},
 	{
@@ -92,13 +99,6 @@ export const projectsData = [
 			"This very portfolio website, featuring responsive designs as my gateway into front-end web dev. Through framer motion, the website includes innovative animations and a seemless scrolling experience, and uses Resend API to enable in-app emailing features.",
 		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer", "Git"],
 		imageUrl: portfolioPng,
-	},
-	{
-		title: "BiteMap",
-		description:
-			"My very first project, a web-app for finding your favourite restaurants in your preferred area. Built using Yelp API and simple react framework, this project taught me the fundamentals of front-end wed design.",
-		tags: ["React", "Javascript", 'HTML', 'CSS', "Git"],
-		imageUrl: bitemap,
 	},
 	{
 		title: "ExamSnap",
