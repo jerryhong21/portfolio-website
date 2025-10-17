@@ -97,7 +97,7 @@ export const projectsData = [
 		title: "Preflop Poker Solver",
 		description:
 			"A AI solver for a simplified version of Heads Up Texas Hold'em. The AI model uses CFR (Counterfactual Regret Minimisation) and MCTS (Monte-Carlo Tree Search) strategies to simulate iterative self-play, culminating in a complete strategy profile all possible decision points in the game at Nash Equilibrium",
-		tags: ["C++","Python", "MatLab", "Counterfactual Regret Minimisation"],
+		tags: ["C++","Python", "MatLab", "AI"],
 		imageUrl: preflopPokerPng,
 	},
 	{
