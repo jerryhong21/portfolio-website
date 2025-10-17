@@ -13,6 +13,7 @@ import React from "react";
 export default function Intro() {
 
 	const wavingEmoji = "👋";
+	const testPDF = "https://s24.q4cdn.com/216390268/files/doc_downloads/test.pdf"
 
 	// Threshold for % of section that needs to be displayed on page for navbar transition
 	const threshold = 0.1;
@@ -60,7 +61,7 @@ export default function Intro() {
 				animate={{ opacity: 1, y: 0 }}>
 				<span className="font-bold">Hi, I&apos;m Jerry</span> <br />
 				<br />
-				I&apos;m a student at UNSW studying CS and Mechatronics Engineering with an interest in algorithms, robotics, and software development.{" "}
+				I&apos;m a student at UNSW studying Computer Science with an interest in algorithms.
 			</motion.h1>
 			<motion.div
 				className="flex flex-col justify-center items-center sm:flex-row text-lg font-medium gap-4"
@@ -74,7 +75,7 @@ export default function Intro() {
 					<BsArrowRight className="opacity-70 translate-x-1 group-hover:translate-x-2" />
 				</Link>
 				<a
-					href="/cv.pdf"
+					href={testPDF}
 					download={true}
 					className="group bg-white text-gray-900 px-7 py-3 flex items-center rounded-full outline-none focus:scale-105 hover:scale-110 hover:bg-gray-100 active:scale-105 transition border border-black/10">
 					Download CV{" "}
@@ -92,12 +93,12 @@ export default function Intro() {
 					className="bg-white text-gray-900 p-4 flex items-center rounded-full outline-none focus:scale-105 hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-100 active:scale-105 transition border border-black/10">
 					<BsLinkedin />
 				</a>
-				<a
+				{/* <a
 					href={instagramUrl}
 					target="_blank"
 					className="bg-white text-gray-900 p-4 flex items-center rounded-full outline-none focus:scale-105 hover:scale-[1.15] hover:text-gray-950 hover:bg-gray-100 active:scale-105 transition border border-black/10">
 					<BsInstagram />
-				</a>
+				</a> */}
 			</motion.div>
 		</section>
 	);
